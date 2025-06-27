@@ -112,12 +112,39 @@ npm run dev
 
 ---
 
-## 💡 Bonus Features (Optional)
 
-✅ Not implemented yet — but planned:
+---
 
-* Pagination: `/students?page=1&limit=10`
-* Filtering: `/students?lastName=Smith`
+## 🎁 Bonus Features ✅ (Implemented)
+
+### ✅ Pagination
+
+You can paginate the list of students using query parameters:
+
+```http
+GET /students?page=1&limit=10
+```
+
+* `page`: which page of results to return (default is `1`)
+* `limit`: how many results per page (default is `10`)
+
+### ✅ Filtering by Last Name
+
+You can filter students by their last name:
+
+```http
+GET /students?lastName=Smith
+```
+
+* Case-insensitive exact match (`Smith`, `smith`, `SMITH` → all work)
+* Can be combined with pagination:
+
+```http
+GET /students?lastName=Ade&page=2&limit=5
+```
+
+---
+
 
 ---
 
