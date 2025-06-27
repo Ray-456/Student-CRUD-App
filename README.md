@@ -23,7 +23,7 @@ It supports full CRUD operations (Create, Read, Update, Delete) and includes val
 
 
 
-student-api/
+```student-api/
 │
 ├── src/
 │   ├── config/              # MongoDB connection
