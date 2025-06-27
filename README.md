@@ -148,11 +148,6 @@ GET /students?lastName=Ade&page=2&limit=5
 
 ---
 
-## 📞 Questions?
-
-Raise an issue or [ping me on GitHub](https://github.com/Ray-456) 💬
-
-```
 
 ---
 
