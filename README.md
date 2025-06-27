@@ -104,7 +104,7 @@ This project includes a full-featured Postman collection to test all endpoints.
 
 1. Open [Postman](https://www.postman.com/)
 2. Click **Import**
-3. Select the file: `Student_API_Collection_Upgraded.json`
+3. Select the file: `Student_API_Collection.json`
 
 ### 📌 Available Requests
 
@@ -177,8 +177,3 @@ GET /students?lastName=Ade&page=2&limit=5
 
 
 ---
-
-Copy that into your `README.md` file, commit it, push to GitHub.
-
-Want me to generate the Postman collection next? Or you wanna flex and do it yourself?
-```
