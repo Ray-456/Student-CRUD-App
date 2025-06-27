@@ -98,9 +98,36 @@ npm run dev
 
 ## 🧪 Postman Collection
 
-1. Import `postman_collection.json` into Postman.
-2. Hit the endpoints with sample data.
-3. Tests for status codes and response structures included.
+This project includes a full-featured Postman collection to test all endpoints.
+
+### 📥 How to Import
+
+1. Open [Postman](https://www.postman.com/)
+2. Click **Import**
+3. Select the file: `Student_API_Collection_Upgraded.json`
+
+### 📌 Available Requests
+
+| Name                | Description                                  |
+|---------------------|----------------------------------------------|
+| Create Student      | Adds a new student and stores their ID       |
+| Get All Students    | Retrieves all student records                |
+| Get Student Count   | Returns total number of student documents    |
+| Filter by Last Name | Uses query param `lastName=...`              |
+| Paginate Results    | Uses query params `page=1&limit=10`          |
+| Update Student      | Modifies student using saved `studentId`     |
+| Delete Student      | Deletes the student by `studentId`           |
+
+### ✅ Tests
+
+Each request includes:
+- Status code assertions
+- JSON structure checks
+- Dynamic `studentId` saving for reuse
+
+---
+
+> Make sure your server is running on `http://localhost:3000` before testing.
 
 ---
 
