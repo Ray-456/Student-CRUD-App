@@ -83,8 +83,8 @@ npm run dev
 | POST   | `/students`       | Create a new student    |
 | GET    | `/students`       | Get all students        |
 | GET    | `/students/count` | Get total student count |
-| PUT    | `/students/:id`   | Update student by ID    |
-| DELETE | `/students/:id`   | Delete student by ID    |
+| PUT    | `/students/<student ID>`   | Update student by ID    |
+| DELETE | `/students/<student ID>`   | Delete student by ID    |
 
 ---
 
