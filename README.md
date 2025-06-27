@@ -1,10 +1,7 @@
-Aight Blade 😎 here’s a clean, **🔥 battle-ready** `README.md` for your **Student CRUD API** project — with full setup, usage, endpoints, and Postman instructions.
-
 ---
 
 ## 📘 `README.md`
 
-```markdown
 # Student-CRUD-App
 
 This is a simple RESTful API built with **Node.js**, **Express**, and **MongoDB** for managing student records.  
@@ -24,7 +21,7 @@ It supports full CRUD operations (Create, Read, Update, Delete) and includes val
 
 ## 📁 Project Structure
 
-```
+
 
 student-api/
 │
